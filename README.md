@@ -1,7 +1,6 @@
 # Pytorch_BERT_Text_Classification
-It is a repository to store text classification code with BERT and BERT-related pertained models.
+It is a repository to store text classification code with BERT and BERT-related pre-tained models.
 <br></br>
-
 ## BERT Description
 
 BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained model developed by Google. With BERT, we could complete a wide range of tasks in NLP by fine-tuning the pretrained model, such as question answering, language inference text classification and etc. 
@@ -12,7 +11,6 @@ For further reading about BERT, you could refer to this paper:
 > Devlin J, Chang M W, Lee K, et al. Bert: Pre-training of deep bidirectional transformers for language understanding[J]. arXiv preprint arXiv:1810.04805, 2018.
 
 <br></br>
-
 ## Dataset Description
 
 Aiming to implement a text classification task with BERT, I chose the `Yelp polarity dataset` with `text` and `label` and treated the task as a sentiment classification problem. 
@@ -28,7 +26,6 @@ For the limitation of file size uploaded on Github, you could download the datas
 - For convenience, I recommended you could download the dataset from the link provided with Kaggle and put the dataset under the directory.
 
 <br></br>
-
 ## Code Description
 
 ### 1. BERT_Text_Classification_CPU.ipynb
