@@ -1,6 +1,5 @@
 # Pytorch_BERT_Text_Classification
 It is a repository to store text classification code with BERT and BERT-related pertained models.
-
 <br></br>
 
 ## BERT Description
@@ -11,7 +10,6 @@ This repository mainly focuses on the text classification task with BERT and BER
 
 For further reading about BERT, you could refer to this paper:
 > Devlin J, Chang M W, Lee K, et al. Bert: Pre-training of deep bidirectional transformers for language understanding[J]. arXiv preprint arXiv:1810.04805, 2018.
-
 <br></br>
 
 ## Code Description
@@ -27,7 +25,6 @@ It is a text classification task implementation in Pytorch and transformers (by 
 - Save and load saved model
 
 If you have any questions about the code, please feel free to issue or email me. 
-
 <br></br>
 
 ## License
