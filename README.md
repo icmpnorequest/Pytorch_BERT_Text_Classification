@@ -10,6 +10,23 @@ This repository mainly focuses on the text classification task with BERT and BER
 
 For further reading about BERT, you could refer to this paper:
 > Devlin J, Chang M W, Lee K, et al. Bert: Pre-training of deep bidirectional transformers for language understanding[J]. arXiv preprint arXiv:1810.04805, 2018.
+
+<br></br>
+
+## Dataset Description
+
+Aiming to implement a text classification task with BERT, I chose the `Yelp polarity dataset` with `text` and `label` and treated the task as a sentiment classification problem. 
+
+For the limitation of file size uploaded on Github, you could download the dataset via link by yourself:
+
+- From Kaggle: https://www.kaggle.com/irustandi/yelp-review-polarity/version/1
+- From Yelp's official website: https://www.yelp.com/dataset/download
+
+**Please Notice**: 
+
+- After downloading the `Yelp polarity dataset`, you could rename the directory's name to `yelp_review_polarity_csv` or modified the dataset path in `BERT_Text_Classification_CPU.ipynb`. Otherwise, it would pop up `FileNotFoundError`.
+- For convenience, I recommended you could download the dataset from the link provided with Kaggle and put the dataset under the directory.
+
 <br></br>
 
 ## Code Description
